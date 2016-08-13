@@ -1,4 +1,4 @@
-﻿namespace Highway1.Wpf
+﻿namespace Highway1.Wpf.Input
 {
 
     using System;
