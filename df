@@ -1,0 +1,83 @@
+[33mcommit a5db987db05b5a2fa082c78f3eaf61ea643c1a43[m
+Author: Torrey Garland <TorreyGarland@users.noreply.github.com>
+Date:   Sat Aug 13 00:29:54 2016 -0400
+
+    Create README.md
+
+[33mcommit f1eac4186fc11051f5bb49931387d259ee7b6919[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Sat Aug 13 00:25:56 2016 -0400
+
+    5
+
+[33mcommit 3499e494e10ee9f98eea2917d3e2f13013d3f572[m
+Author: Torrey Garland <TorreyGarland@users.noreply.github.com>
+Date:   Sat Aug 13 00:23:18 2016 -0400
+
+    ADHD
+
+[33mcommit 0e21e3c55a60010fd7f3cfded1dda1105c578888[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Sat Aug 13 00:20:57 2016 -0400
+
+    OCD.
+
+[33mcommit 6f000adfac5500e945ca62937bfb4043c0959cc8[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Sat Aug 13 00:19:01 2016 -0400
+
+    Crazy insane modifications.
+
+[33mcommit 1ae39ca9323ad63185dc26a804fa26b5ff9360c9[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Sat Aug 13 00:02:01 2016 -0400
+
+    Whip it good.
+
+[33mcommit 0fd00c8151d735240c96352a7e87c723e00db6f4[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Sat Aug 13 00:00:43 2016 -0400
+
+    I don't think I need to keep track of the class diagrams.
+
+[33mcommit 246b3d7179c50e9df8c4b3f38411a311ae45ee4f[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Fri Aug 12 23:58:20 2016 -0400
+
+    Code contracts added.  Implementation of DelegateCommandBase added.
+
+[33mcommit 9ce7388202838c1dfc9d489a72852ce8f91274c1[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Fri Aug 12 23:47:27 2016 -0400
+
+    Changed DelegateCommandBase namespace.  Added Input class diagram.  Moved DelegateCommandBase to new folder.
+
+[33mcommit 8e56c781a67bc7e17a3e431e46c32d0e8dd3bfcd[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Fri Aug 12 23:45:17 2016 -0400
+
+    Implementation completed.
+
+[33mcommit de311f00536f41b1d94d21cc4eb11f3cf6e58790[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Fri Aug 12 23:40:53 2016 -0400
+
+    Implementing "ICommand" interface for "DelegateCommandBase" class.
+
+[33mcommit 0f618c3dce537f4a78f32589e53ab962713619e4[m
+Author: crazytmack <crazytmack@TELETRON1A>
+Date:   Fri Aug 12 23:35:54 2016 -0400
+
+    Adding "DelegateCommandBase" class.
+
+[33mcommit c423173c2c6827fd025e5cb9ab17d3f03771036a[m
+Author: CrazyTmack <crazytmack@hotmail.com>
+Date:   Fri May 8 20:52:05 2015 -0400
+
+    g
+
+[33mcommit a124c71b107c1c8069a5bbb65be84d4647c03e87[m
+Author: Crazy Tmack <CrazyTmack@users.noreply.github.com>
+Date:   Fri May 8 20:25:36 2015 -0400
+
+    Initial commit
