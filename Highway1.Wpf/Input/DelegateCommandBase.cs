@@ -5,7 +5,7 @@
     using System.Diagnostics;
     using System.Windows.Input;
 
-    public abstract class DelegateCommandBase : ICommand
+    public abstract class DelegateCommandBase
     {
 
         #region Properties
@@ -25,8 +25,6 @@
         [DebuggerStepThrough]
         public virtual bool CanExecute(object parameter)
             => (Predicate?.Invoke(parameter)).GetValueOrDefault(true);
-
-        public abstract void Execute(object parameter);
 
         #endregion
 

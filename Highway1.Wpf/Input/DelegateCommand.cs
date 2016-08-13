@@ -4,8 +4,9 @@
     using System;
     using System.Diagnostics;
     using System.Diagnostics.Contracts;
+    using System.Windows.Input;
 
-    public sealed class DelegateCommand : DelegateCommandBase
+    public sealed class DelegateCommand : DelegateCommandBase, ICommand
     {
 
         #region Fields
@@ -25,18 +26,18 @@
         }
 
         [DebuggerStepThrough, Pure]
-        public static DelegateCommand Create(Action action)
+        public static DelegateCommand New(Action action)
         {
             Contract.Requires<ArgumentNullException>(action != null, nameof(action));
-            Contract.Ensures(Contract.Result<DelegateCommand>() != null, nameof(Create));
-            return Create(_ => action());
+            Contract.Ensures(Contract.Result<DelegateCommand>() != null, nameof(New));
+            return New(_ => action());
         }
 
         [DebuggerStepThrough, Pure]
-        public static DelegateCommand Create(Action<object> action)
+        public static DelegateCommand New(Action<object> action)
         {
             Contract.Requires<ArgumentNullException>(action != null, nameof(action));
-            Contract.Ensures(Contract.Result<DelegateCommand>() != null, nameof(Create));
+            Contract.Ensures(Contract.Result<DelegateCommand>() != null, nameof(New));
             return new DelegateCommand(action, null);
         }
 
@@ -45,7 +46,7 @@
             => Execute(null);
 
         [DebuggerStepThrough]
-        public override void Execute(object parameter)
+        public void Execute(object parameter)
             => _action(parameter);
 
         [DebuggerStepThrough, Pure]

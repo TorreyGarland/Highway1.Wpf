@@ -3,17 +3,17 @@
   <Class Name="Highway1.Wpf.Input.DelegateCommandBase" Collapsed="true">
     <Position X="6.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAEACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAEACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Input\DelegateCommandBase.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Highway1.Wpf.Input.DelegateCommand" Collapsed="true">
     <Position X="6.75" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAEAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABCQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Input\DelegateCommand.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
