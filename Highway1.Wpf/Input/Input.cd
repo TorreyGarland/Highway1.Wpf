@@ -1,17 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Highway1.Wpf.Input.DelegateCommandBase" Collapsed="true">
-    <Position X="6.75" Y="1.75" Width="1.5" />
+    <Position X="7" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Input\DelegateCommandBase.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Highway1.Wpf.Input.DelegateCommand" Collapsed="true">
-    <Position X="6.75" Y="3" Width="1.5" />
+  <Class Name="Highway1.Wpf.Input.DelegateCommand">
+    <Position X="8" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABCQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Input\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Highway1.Wpf.Input.AsyncDelegateCommand">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABCAAAAQAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Input\AsyncDelegateCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
