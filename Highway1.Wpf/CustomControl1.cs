@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 
 namespace Highway1.Wpf
 {
+
+
     /// <summary>
     /// Follow steps 1a or 1b and then 2 to use this custom control in a XAML file.
     ///
